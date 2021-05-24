@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 
 class FaqSection extends Component {
     state = {
+        show:false,
         data: {},
         faqDataThree: []
     }
@@ -76,12 +77,12 @@ class FaqSection extends Component {
                                             {/* Card Header */}
                                             <div className="card-header bg-inherit border-0 p-0">
                                                 <h2 className="mb-0">
-                                                <button className="btn px-0 py-3" type="button" data-toggle="collapse" data-target="#collapseOne">
+                                                <button onClick={()=>this.setState({show:!this.state.show})} className={`btn px-0 py-3 ${!this.state.show ? 'collapsed' : ''}`} type="button" data-toggle="collapse" data-target="#collapseOne">
                                                     {item.title}
                                                 </button>
                                                 </h2>
                                             </div>
-                                            <div id="collapseOne" className="collapse" data-parent="#sApp-accordion">
+                                            <div id="collapseOne" className={`collapse ${this.state.show ? 'show' : ''}`} data-parent="#sApp-accordion">
                                                 {/* Card Body */}
                                                 <div className="card-body px-0 py-3">
                                                     {item.content}

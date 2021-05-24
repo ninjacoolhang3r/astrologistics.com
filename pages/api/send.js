@@ -2,17 +2,16 @@ const sgMail = require('@sendgrid/mail')
 
 export default async function(req, res) {
   sgMail.setApiKey(process.env.NEXT_PUBLIC_SENDGRID_ACCESS_TOKEN)
-    console.log(process.env.NEXT_PUBLIC_SENDGRID_ACCESS_TOKEN)
   const { email, message, subject, name } = req.body
 
   console.log(req.body)
 
   const content = {
-    to: 'anthonymedina958@gmail.com',
-    from: email,
+    to: 'astrologisticss@gmail.com',
+    from: 'astrologisticss@gmail.com',
     subject: subject,
     text: message,
-    html: `<p>From <strong>${name}</strong></p><br></br><p>${message}</p>`
+    html: `<p>From <strong>${name}</strong></p><br></br><p>${message}<br><br/>Email: ${email}</p>`
   }
 
   try {
