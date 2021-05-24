@@ -33,7 +33,7 @@ class FaqSection extends Component {
                         },
                         {
                             title:'HOW MUCH MONEY CAN I EXPECT TO SAVE USING ASTROLOGISTICS',
-                            content: 'asd'
+                            content: 'With Astro Logistics you are dealing with a personal representative of the costumer, we have a set standard fee for all our costumers. So you get the lowest price in the industry when you ship with us. Our Carriers have the highest standards in the industry. We check with our compliance team weekly to provide the best carriers in the industry.'
                         },
                         {
                             title:'WHEN DO I PAY?',
