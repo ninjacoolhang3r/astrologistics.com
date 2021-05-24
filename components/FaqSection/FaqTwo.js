@@ -13,23 +13,23 @@ class FaqSection extends Component {
                     faqDataThree: [
                         {
                             title:'WHAT CAN I SHIP?',
-                            content: 'asd'
+                            content: 'General Merchandise/General Cargo, Branded Goods, Precision Instruments, Machinery (which is not prone to Breakage), Fragile Goods, Bottled Products, (excluding Beverages), Non-Perishable Food, Bottled Beverages, Automobiles, Motorbikes, Household Goods and Personal Effects, Frozen Foods, Frozen Meat, Chemicals & Hazardous Materials, Fine Arts, Steel Sheets, Coils, Bars, Billets and the like, Computers, Electronics, Cell Phones, Telescopes'
                         },
                         {
                             title:'WHAT WARRANTIES DO I HAVE FOR MY SHIPMENTS',
-                            content: 'asd'
+                            content: 'Any shipment that is being shipped with Astro Logistics Inc. is covered by full 100 percent coverage at the price of the product.'
                         },
                         {
                             title:'AFTER COMPLETE A DELIVERY, HOW DO I GET PAID?',
-                            content: 'asd'
+                            content: '30 day pay also quick pay avaiable'
                         },
                         {
                             title:'DOES MY RATE INCLUDE FUEL?',
-                            content: 'asd'
+                            content: 'Yes'
                         },
                         {
                             title:'WHERE CAN I SHIP MY PRODUCTS TO?',
-                            content: 'asd'
+                            content: 'Anywhere in the USA'
                         },
                         {
                             title:'HOW MUCH MONEY CAN I EXPECT TO SAVE USING ASTROLOGISTICS',
@@ -38,7 +38,11 @@ class FaqSection extends Component {
                         {
                             title:'WHEN DO I PAY?',
                             content: 'asd'
-                        }
+                        },
+                        {
+                            title:'WHY TO SHIP WITH US?',
+                            content: 'Visibility to both Expedited and Truckload shipments (Must qualify for Expedite by agreeing to Carrier Excellence terms), Post equipment availability, Update shipment status'
+                        },
                     ]
                 })
               

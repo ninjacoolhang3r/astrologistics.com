@@ -106,7 +106,7 @@ class FooterSection extends Component {
                             <div className="footer-items">
                                 {/* Logo */}
                                 <a className="navbar-brand" href="/#">
-                                <img className="logo" src={this.state.data.image} alt="" />
+                                <img className="logo" src='/img/logo.png' alt="" />
                                 </a>
                                 <p className="mt-2 mb-3">MC-1222900-B<br/>U.S. DOT no. 3600658<br/>ASTRO LOGISTICS<br/>13022 NE 102ND PL<br/>KIRKLAND, WA 98033</p>
                                 {/* Social Icons */}
