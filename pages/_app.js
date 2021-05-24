@@ -1,4 +1,5 @@
 import '../public/assets/css/style.css';
+import '../public/assets/css/responsive.css';
 
 function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />
