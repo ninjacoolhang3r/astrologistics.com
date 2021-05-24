@@ -40,13 +40,13 @@ export default function Home() {
                         <meta name="theme-color" content="#ffffff"/>
                         <meta name="description" content="Premium services ranging from Truckload, Intermodal, Air, Ocean, LTL, Customs Brokerage, and more." />
                         {/* <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> */}
-                        <meta name="twitter:image:src" content="/img/logo-big.jpg"/>
+                        <meta name="twitter:image:src" content="/img/logo-big.png"/>
                         <meta name="twitter:site" content="@astrologistics"/>
                         <meta name="twitter:card" content="summary_large_image"/>
                         <meta name="twitter:title" content="Astro Logistics Inc."/>
                         <meta name="twitter:description" content="Premium services ranging from Truckload, Intermodal, Air, Ocean, LTL, Customs Brokerage, and more."/>
 
-                        <meta property="og:image" content="/img/logo-big.jpg"/> 
+                        <meta property="og:image" content="/img/logo-big.png"/> 
                         <meta property="og:image:alt" content="Premium services ranging from Truckload, Intermodal, Air, Ocean, LTL, Customs Brokerage, and more."/>
                         <meta property="og:site_name" content="Astro Logistics"/>
                         <meta property="og:type" content="object"/>
