@@ -38,7 +38,7 @@ class FaqSection extends Component {
                         },
                         {
                             title:'WHEN DO I PAY?',
-                            content: 'asd'
+                            content: 'When freight is delivered'
                         },
                         {
                             title:'WHY TO SHIP WITH US?',
