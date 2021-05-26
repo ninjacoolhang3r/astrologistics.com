@@ -50,7 +50,7 @@ class ContactPage extends Component {
                                 <div className="col-12 col-md-5">
                                     {/* Contact Us */}
                                     <div className="contact-us">
-                                        <p className="mb-3">{this.state.data.content}</p>
+                                        <p className="mb-3">Send us a message to get a quote or any information you need.</p>
                                         <ul>
                                             {this.state.iconList.map((item, idx) => {
                                                 return(
