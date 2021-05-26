@@ -48,9 +48,14 @@
         max-width: 160px;
     }
 
+    .navbar-brand img {
+        max-width: 50% !important;
+    }
+
     .res-margin {
         margin-bottom: 45px;
     }
+
 }
 
 @media (max-width: 767px) {
