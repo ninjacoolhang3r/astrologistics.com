@@ -40,7 +40,7 @@ class ContactSection extends Component {
                         {/* Section Heading */}
                         <div className="section-heading text-center">
                         <h2 className="text-capitalize">Contact us</h2>
-                        <p className="d-none d-sm-block mt-4">Send us a letter to get a quote or any information related to us</p>
+                        <p className="d-none d-sm-block mt-4">Send us a message to get a quote or any information you need.</p>
                    
                         </div>
                     </div>
