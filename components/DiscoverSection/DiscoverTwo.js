@@ -13,7 +13,7 @@ class DiscoverSection extends Component {
                 {
                     "id": 1,
                     "iconClass": "fas fa-check",
-                    "text": "Your payment process made fast, our mates are important for us."
+                    "text": "Start making a good income with our dedicated shipment yearround."
                 },
                 {
                     "id": 2,

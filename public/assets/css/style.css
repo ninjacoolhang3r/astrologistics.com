@@ -433,7 +433,7 @@ img {
     width: 100%;
     display: block;
     border-radius: 120px;
-    background: linear-gradient(-47deg, #8731E8 0%, #4528DC 100%);
+    background: linear-gradient(-47deg, #40a57b 0%, #963aff 100%);
     bottom: 0;
     right: 0;
     -webkit-transform: translate(35%,-28%) rotate(-35deg);
@@ -501,12 +501,20 @@ img {
     background: inherit !important;
 }
 
-.btn,
-.btn:active,
-.btn.sApp-btn:before,
+
 .bg-overlay::after,
 .benifits-item:after {
-    background: linear-gradient(-47deg, #8731E8 0%, #4528DC 100%);
+    background: linear-gradient(-47deg, #40a57b 0%, #963aff 100%);
+}
+
+.btn,
+.btn:active,
+.btn.sApp-btn:before{
+    background:#3755a7;
+}
+
+.navbar .btn:hover{
+    color: black
 }
 
 /*SOCIAL ICONS*/
@@ -2035,10 +2043,12 @@ img {
     line-height: 45px;
     font-size: 18px;
     text-align: center;
-    background-color: #7c4fe0;
+    background-color: #3755a7;
     color: #fff;
     border-radius: 4px;
 }
+
+
 
 .contact-box .form-group input,
 .contact-box .form-group textarea {
@@ -2078,7 +2088,7 @@ img {
 .contact-box button {
     height: 60px;
     border-radius: 8px;
-    background: #7c4fe0 ;
+    background: #3755a7 ;
 }
 
 /*Map Area*/

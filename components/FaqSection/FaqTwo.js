@@ -77,12 +77,12 @@ class FaqSection extends Component {
                                             {/* Card Header */}
                                             <div className="card-header bg-inherit border-0 p-0">
                                                 <h2 className="mb-0">
-                                                <button onClick={()=>this.setState({show:!this.state.show})} className={`btn px-0 py-3 ${!this.state.show ? 'collapsed' : ''}`} type="button" data-toggle="collapse" data-target="#collapseOne">
+                                                <button onClick={()=>this.setState({show:this.state.show === idx+1 ? 0 : idx+1})} className={`btn px-0 py-3 ${idx+1 === this.state.show ? 'collapsed' : ''}`} type="button" data-toggle="collapse" data-target="#collapseOne">
                                                     {item.title}
                                                 </button>
                                                 </h2>
                                             </div>
-                                            <div id="collapseOne" className={`collapse ${this.state.show ? 'show' : ''}`} data-parent="#sApp-accordion">
+                                            <div id="collapseOne" className={`collapse ${idx+1 === this.state.show ? 'show' : ''}`} data-parent="#sApp-accordion">
                                                 {/* Card Body */}
                                                 <div className="card-body px-0 py-3">
                                                     {item.content}
