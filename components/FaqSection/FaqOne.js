@@ -29,7 +29,7 @@ class FaqSection extends Component {
                     <div className="col-12 col-md-10 col-lg-7">
                         {/* Section Heading */}
                         <div className="section-heading text-center">
-                            <h2 className="text-capitalize">Have Questions?</h2>
+                            <h2 className="text-capitalize">Have Questions? </h2>
                             {/* <p className="d-none d-sm-block mt-4">{this.state.data.headingText}</p>
                             <p className="d-block d-sm-none mt-4">{this.state.data.headingTexttwo}</p> */}
                         </div>
