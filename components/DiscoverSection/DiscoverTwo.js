@@ -13,22 +13,22 @@ class DiscoverSection extends Component {
                 {
                     "id": 1,
                     "iconClass": "fas fa-check",
-                    "text": "Start making a good income with our dedicated shipment yearround."
+                    "text": "Start earning a consistent income with our year-round dedicated freight."
                 },
                 {
                     "id": 2,
                     "iconClass": "fas fa-check",
-                    "text": "You can contact us always if needed, support is in your hand."
+                    "text": "We provide 24/7 support, contact one of our team members and we'll be happy to help."
                 },
                 {
                     "id": 3,
                     "iconClass": "fas fa-check",
-                    "text": "The best team communication and personal treatment to build a strong realtionship."
+                    "text": "We offer the best team communication and personal treatment to build a strong relationship with our carriers."
                 },
                 {
                     "id": 4,
                     "iconClass": "fas fa-check",
-                    "text": "Get a good incoming with us, we will be looking for good paid jobs"
+                    "text": "We have nation wide freight that needs to be moved, contact us today for more details on our dedicated freight."
                 }
             ]
         })         
