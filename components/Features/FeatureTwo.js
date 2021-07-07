@@ -13,14 +13,14 @@ class FeatureSection extends Component {
                         {
                             "id": 1,
                             "iconClass": "fa fa-pallet",
-                            "title": "Dedicated Fleet Services",
-                            "text": "Dedicated private fleet services customized to integrate and streamline transportation networks optimizing costs, efficiencies, and delivering excellent customer service."
+                            "title": "Warehouse & Distribution Services",
+                            "text": "Best-in-class warehousing, fulfillment, and distribution services encompasses customized solution design, operational excellence, and cutting-edge technology to ensure that you and your customers get the most efficient service."
                         },
                         {
                             "id": 2,
                             "iconClass": "fa fa-truck-loading",
-                            "title": "Last Mile and Home Delivery Services",
-                            "text": "Years of experience providing last mile and home delivery services."
+                            "title": "Best Service",
+                            "text": "Ship high-value, time-critical freight with the highest level of service in the industry. From temperature and humidity control for sensitive shipments to geo-fencing technology that tracks valuable freight in transit, you can trust us to handle your needs, regardless of the scenario."
                         },
                         {
                             "id": 3,
@@ -60,9 +60,7 @@ class FeatureSection extends Component {
                         {/* Section Heading */}
                         <div className="section-heading text-center">
                         <h2>About</h2>
-                        <p className="d-none d-sm-block mt-4">Astros Logistics was founded upon the principles of integrity and honesty. We solve problems
-for companies all across the globe, while maintaining great relationships with our carriers.
-Contact one of our representatives today and let us problem the solution to your logistics needs.</p>
+                        <p className="d-none d-sm-block mt-4">Astros Logistics was founded upon the principles of integrity and honesty. We solve problems for companies all across the globe, while maintaining great relationships with our carriers. Contact one of our representatives today and let us provide the solution for all your logistics needs!</p>
                         <p className="d-block d-sm-none mt-4">{this.state.data.headingTexttwo}</p>
                         </div>
                     </div>
