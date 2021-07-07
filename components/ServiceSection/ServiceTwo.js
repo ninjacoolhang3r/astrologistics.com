@@ -13,22 +13,22 @@ class ServiceSection extends Component {
                         {
                             "id": 1,
                             "iconClass": "fa fa-coins",
-                            "text": "Save Money with us, request a quotation and discover the best prices."
+                            "text": "Earn more with us - Talk to any of our broker representatives and learn how you can get paid more to haul freight."
                         },
                         {
                             "id": 2,
                             "iconClass": "fas fa-user",
-                            "text": "Our agents are ready to meet your requirements, and assist you."
+                            "text": "Our agents are available 24/7 ready to provide assistance."
                         },
                         {
                             "id": 3,
                             "iconClass": "fas fa-clock",
-                            "text": "Your time is gold, that's why we make sure you receive your payload fast."
+                            "text": "Your time is money, so we're always happy to help."
                         },
                         {
                             "id": 4,
                             "iconClass": "fas fa-phone",
-                            "text": "Our support team is available always if you have any issue or question."
+                            "text": "Get dedicated freight at the best possible rates."
                         }
                     ]
                 })
@@ -43,7 +43,7 @@ class ServiceSection extends Component {
                     <div className="col-12 col-lg-6 order-2 order-lg-1">
                         {/* Service Text */}
                         <div className="service-text pt-4 pt-lg-0">
-                        <h2 className="mb-4">The most efficient service for you</h2>
+                        <h2 className="mb-4">The Best Solutions For You</h2>
                         {/* Service List */}
                         <ul className="service-list">
                             {this.state.serviceData.map((item, idx) => {
